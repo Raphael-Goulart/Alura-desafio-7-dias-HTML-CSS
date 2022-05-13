@@ -1,3 +1,11 @@
+:root {
+    --fonte-texto:  'Inter', sans-serif;
+    --cor-texto: #667085;
+    --cor-texto-logo: #3A404E;
+    --cor-vermelho: #8E2424;
+    --cor-titulo-paragrafo: #101828;
+   }
+
 header{
     display: flex;
     justify-content: space-between;
@@ -12,22 +20,23 @@ header{
 }
 
 h1{
-font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 24px;
-margin-left: 8px;
-color: #3A404E;
+    color: var(--cor-texto-logo);
+    font-family: var(--fonte-texto);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 8px;
+    color: var(--cor-h1);
 }
 
 .menu{
     display: flex;
     justify-content: space-between;
-    font-family: 'Inter', sans-serif;  
+    font-family: var(--fonte-texto);
     cursor: pointer; 
     margin-top: 15px;
-    color: #667085;
+    color: var(--cor-texto);
 }
 .cabecalho__link{
     margin-left: 32px;
@@ -39,7 +48,7 @@ color: #3A404E;
 
 .container_button{
     display: flex;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fonte-texto);
 }
 
 .container_button :hover {
@@ -49,8 +58,8 @@ color: #3A404E;
 .button_entrar{
     border: none;
     background-color: transparent;
-    margin-right: 20px;
-    color: #667085;
+    margin-right: 5px;
+    color: var(--cor-texto);
     border: none;
     border: 1px solid transparent;
     border-radius: 8px;
@@ -59,11 +68,11 @@ color: #3A404E;
 }
 
 .button_cadastrar{
-    background-color: #8E2424;
+    background-color: var(--cor-vermelho);
     margin-right: 112px;
     color: #FFFFFF;
     border: none;
-    border: 1px solid #8E2424;
+    border: 1px solid var(--cor-vermelho);
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
     border-radius: 8px;
     width: 112px;
@@ -74,4 +83,50 @@ color: #3A404E;
     width: 100px;
     height: 40px;
 }
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0px;
+    gap: 24px;
+    width: 1440px;
+    height: 407px;
+    background: #FFFFFF;
+    font-family: var(--fonte-texto);
+}
+
+section span {
+    color: var(--cor-vermelho);
+}
+
+.titulo_1 {
+font-weight: 600;
+font-size: 48px;
+line-height: 60px;
+letter-spacing: -0.02em;
+color: var(--cor-titulo-paragrafo);
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.texto_1 {
+    width: 791px;
+    height: 60px;
+    font-family: var(--fonte-texto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--cor-texto);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
 
