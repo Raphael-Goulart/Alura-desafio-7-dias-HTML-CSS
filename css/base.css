@@ -1,5 +1,7 @@
 :root {
-  --fonte-texto: 'Inter', ssans-serif;
-  --cor-texto: #667085;
-
+  --fonte-texto:  'Inter', sans-serif;
+    --cor-texto: #667085;
+    --cor-texto-logo: #3A404E;
+    --cor-vermelho: #8E2424;
+    --cor-titulo-paragrafo: #101828;
 }
