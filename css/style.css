@@ -181,7 +181,7 @@ section span {
     font-size: 60px;
     line-height: 72px;
     letter-spacing: -0.02em;
-    color: #8E2424;
+    color: var(--cor-vermelho);
     flex: none;
     order: 0;
     align-self: stretch;
