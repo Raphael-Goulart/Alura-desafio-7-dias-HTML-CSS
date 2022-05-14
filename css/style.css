@@ -89,7 +89,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 96px 0px;
+    padding-top: 96px;
     gap: 24px;
     width: 1440px;
     height: 407px;
@@ -102,15 +102,16 @@ section span {
 }
 
 .titulo_1 {
-font-weight: 600;
-font-size: 48px;
-line-height: 60px;
-letter-spacing: -0.02em;
-color: var(--cor-titulo-paragrafo);
-flex: none;
-order: 0;
-flex-grow: 0;
-}
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    color: var(--cor-titulo-paragrafo);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 24px;
+    }
 
 .texto_1 {
     width: 791px;
@@ -125,8 +126,96 @@ flex-grow: 0;
     flex: none;
     order: 0;
     flex-grow: 0;
+    margin-top: 36px;
 }
 
 
+.metricas-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    width: 1440px;
+    height: 288px;
+    background: #FFFFFF;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-left: 112px;
+}
 
+.metricas-content{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    width: 280px;
+    height: 192px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
 
+.metricas-itens {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 280px;
+    height: 168px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.metricas-h1{
+    width: 280px;
+    height: 72px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    color: #8E2424;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.metricas-h3{
+    width: 280px;
+    height: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-top: 12px;
+}
+
+.metricas-paragrafo {
+    width: 280px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-top: 8px;
+}
