@@ -187,7 +187,7 @@ section span {
     font-size: 60px;
     line-height: 72px;
     letter-spacing: -0.02em;
-    color: #8E2424;
+    color: var(--cor-vermelho);
     flex: none;
     order: 0;
     align-self: stretch;
@@ -226,7 +226,7 @@ section span {
     margin-top: 8px;
 }
 
-.container-vagas {
+.vagas {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -276,8 +276,5 @@ section span {
     height: 400px;
     top: 298px;
 }
-
-
-
 
 
