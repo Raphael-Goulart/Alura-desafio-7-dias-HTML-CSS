@@ -64,7 +64,7 @@
   
 #entrar {
     background-color: var(--cor-vermelho);
-    background: var(--cor-fundo-principal);
+    color: var(--cor-fundo-principal);
   }
 
 .cabecalho {
@@ -231,7 +231,6 @@ background: var(--cor-fundo-principal);
     gap: 24px;
     width: 1280px;
     height: 518px;
-    left: calc(50% - 1280px/2);
     top: 1184px;
 }
 
