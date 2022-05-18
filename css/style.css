@@ -64,7 +64,7 @@
   
 #entrar {
     background-color: var(--cor-vermelho);
-    color: #FFF;
+    color: var(--cor-fundo-principal);
   }
 
 .cabecalho {
@@ -418,7 +418,7 @@ background: var(--cor-fundo-principal);
     color: var(--text-color);
     font-size: 0.9rem;
     background-color: var(--cor-vermelho);
-    color: #FFF;
+    background: var(--cor-fundo-principal);
     width: 116px;
     height: 48px;
     margin-left: 16px;
